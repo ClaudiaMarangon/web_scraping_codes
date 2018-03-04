@@ -176,7 +176,7 @@ try:
 except:
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login("cmarangon94@gmail.com", "Clapi_pini13")
+    server.login("cmarangon94@gmail.com", "PASSWORD")
  
     msg = "An Exception Occurred!"
     server.sendmail("cmarangon94@gmail.com", "claudia.marangon@studbocconi.it", msg)
